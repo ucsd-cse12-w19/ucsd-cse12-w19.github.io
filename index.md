@@ -6,27 +6,15 @@ doodle: "/doodle.png"
 
 
 
-# [This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
-# Basic Data Structures and Object-Oriented Design</h1>
-## _CSE12, Winter 2019, A/B_
+# Basic Data Structures and Object-Oriented Design
+
+[This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
 
 <a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
 
-<p>
-<a href="#basics">Basics</a> - 
-<a href="#schedule">Schedule</a> - 
-<a href="#staff">Staff &amp; Resources</a> - 
-<a href="#grading">Grading</a> -
-<a href="#policies">Policies</a>
-</p>
-
-    <p>
 This course focuses on two main topics: The basics of organizing data for
-efficient computation, and how to design programs that use collections,
+efficient computation, and the design of programs that use collections,
 classes, and interfaces.
-    </p>
-
-    <p>
 
 Each week, we will explore topics in these areas interactively during lectures.
 You will read beyond what we explore in lecture, complete programming
@@ -35,208 +23,211 @@ test your understanding of what you've learned. After, you'll be better at
 designing and understanding programs and the structure of data they work
 over.
 
-    </p>
+Basics: <a href="#b:lec">Lecture</a>, <a href="#b:disc">Discussion</a>,
+<a href="#pa">Programming Assignments</a>, and <a
+href="#b:exams">Exams</a>. Check the <a href="#schedule">Schedule</a> for
+class topics, links to resources, and assignment due dates. The <a
+href="#staff">course instructional team</a> is here to help you learn: <a
+href="#pa:help">ask for help and advice</a>!
 
-    <a id="basics">
-    <h2>Basics</h2>
+## Schedule
+<a id="schedule"></a>
 
-    <a id="schedule">
-    <h2>Schedule</h2>
+## Basic Course Components
+<a id="basics"></a>
 
-    <a id="staff">
-    <h2>Staff &amp; Resources</h2>
+### <a id="b:lec" href="#b:lec">Lecture</a>
 
-    <h3>Lab Hours</h3>
+Expect class to be interactive; you'll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using iClickers (see <a href="#p:engage">Engagement</a> below). Due to space constraints, you must attend the lecture in which you're enrolled.
 
-    <p>
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th>Lecture</th><th>Time</th><th>Location</th>
+  </tr>
+</thead>
+<tr>
+  <td> A00 </td><td>MWF 8am</td><td>WLH2005 </td>
+</tr>
+<tr>
+  <td>B00 </td><td>MWF 3pm </td><td>York 2622</td>
+</tr>
+</table>
 
-      PA 1 testing      - open
-      PA 2 paginator    - closed (with review & resubmission)
-      PA 3 maze         - open
-      PA 4 big-O        - closed (with review & resubmission)
-      PA 5 partitacale  - open
-      PA 6 n-grams      - closed (with review & resubmission)
-      PA 7 hash measure - open
-      PA 8 heaps        - closed (no review or resubmission)
+### <a id="b:disc" href="#b:disc">Discussion</a>
 
-      (6) PA 1 testing        closed (with code mentoring)   Hours are for account, eclipse setup, etc.
-      (4) PA 2 paginator      open                           Hours code mentor PA1, help with PA2. Grading PA1
-      (6) PA 3 maze           closed (with code mentoring)   Hours code mentor PA1. Grading PA2.
-      (4) PA 4 big-O          open                           Hours code mentor PA3, help with PA4. Grading PA3
-      (6) PA 5 partitacal     closed (with code mentoring)   Hours code mentor PA3. Grading PA4
-      (4) PA 6 n-grams        open                           Hours code mentor PA5, help with PA6. Grading PA5
-      (6) PA 7 hash measure   closed (no code mentoring)     Hours code mentor PA5. Grading PA6.
-      (4) PA 8 heaps          open                           Hours help review PA7, help with PA8. Grading PA7
+Discussions will reinforce concepts from class and introduce concepts that
+are especially helpful for completing programming assignments. Students from
+either section can attend either discussion.
 
-    There are numerous lab hours available to you, staffed by TAs and tutors.
-    These hours are available for you to get help on past assignments where
-    you struggled in order to prepare them for resubmission (see LINK).
+<table class="table table-striped">
+<thead>
+  <tr>
+  <th>Time</th><th>Location</th>
+  </tr>
+</thead>
+<tr>
+  <td>T 8pm </td><td>PCYNH 109</td>
+</tr>
+<tr>
+  <td>F 5pm </td><td>York 2622</td>
+</tr>
+</table>
 
-    </p>
-
-    <h3>Piazza</h3>
-
-    <h3>Discussion Sections</h3>
-
-    <h3>The IDEA Engineering Student Center</h3>
-
-    <a id="grading">
-    <h2>Grading</h2>
-
-    <a id="policies"></a>
-    <h2>Policies</h2>
-
-
-
-    <h3>Sections</h3>
-
-    <h3>Late Work</h3>
-
-    <h3>Regrades</h3>
-
-    <h3>Exams</h3>
-
-    <h3>Academic Integrity</h3>
-
-    <h3>Consent to Participate in Educational Research</h3>
-
-    <p>
-    <em>Investigating the Impact of Pedagogical Choices on University Student Learning and Engagement</em></p>
-
-    <p><b>Who is conducting the study, why you have been asked to participate, how
-    you were selected, and what is the approximate number of participants in the
-    study?  </b></p>
-
-    <p>Gabriele Wienhausen, Director of the Teaching and Learning Commons,
-    together with her education research colleagues is conducting a research
-    study to find out more about how pedagogical choices affect student
-    learning and experience in the classroom. You have been asked to
-    participate in this study because you are a student in a class that is
-    being studied or used as a control. There will be approximately 500,000
-    participants in this study.  </p>
+### <a id="b:materials" href="#b:materials">Materials</a>
 
 
+There is no required textbook for the course. 
 
+I have made a ZyBook available that I've used in the past ([LINK COMING SOON
+UCSDCSE12PolitzWinter2019]). You can purchase a subscription and use it at
+your convenience; it serves as a useful reference and is organized in the
+order material is presented in this course.
 
-    <p><b>Why is this study being done?</b></p>
+We may use other on-line resources during the quarter that may be required
+reading or activities. These will all be free and linked from the schedule.
 
-    <p>The purpose of this study is to create knowledge that has the potential
-    to improve the learning and educational experience of students at UC San
-    Diego and beyond.</p>
+Online discussion and Q&A for the class will be available on Piazza: sign up to
+<a href="http://piazza.com/ucsd/winter2019/cse12" target="_blank">join the class here</a>
+and <a href="http://piazza.com/ucsd/winter2019/cse12/home" target="_blank">view the discussion forum here</a>.
+Important announcements from the course team will be pinned at the top of your feed.
+When you set up your account, you can select the frequency for email notifications of messages and discussions
+on Piazza.  Piazza is one way you can <a href="#pa:piazzahelp">ask for and get help</a> in this course.
 
-    <p></b>What will happen to you in this study and which procedures are
-    standard of care and which are experimental?</b></p>
+<a href="https://docs.oracle.com/javase/11/" target="_blank">The
+documentation for the Java language</a>, while not required reading, will be
+linked to from some assignments and is always a useful reference while
+programming. We will be using Java version **11** for the programming
+assignments in this course, which is available at <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html">Oracle's web site</a>.
 
-    <p>
-    If you agree to be in this study, the following will happen:
-    </p>
+You'll be submitting your classwork and seeing grading feedback through a
+tool called <a href="http://gradescope.com/" target="_blank">Gradescope</a>.
 
-    <p>Your data from this class including grades, homework and exam
-    submissions, and survey responses will be included in the analysis to
-    determine the effectiveness of the pedagogical techniques used in this
-    course compared to other similar courses.</p>
+You'll be receiving starter code through a service called <a
+href="https://github.com" target="_blank">Github</a>. You aren't required to
+have an account to complete coursework, but it can be useful for you to make
+one.
 
-    <p><b>How much time will each study procedure take, what is your total time
-    commitment, and how long will the study last?</b></p>
+## <a id="programming" href="#programming">Programming</a>
 
-    <p>Your participation involves only agreeing to let us use your data in our
-    analysis.  It will require no time on your part above the time you put into
-    this course without agreeing to the study.</p>
+Most weeks, you will be working on a programming assignment for this class.
+There are several specific policies in place regarding programming
+assignments, and you should pay careful attention to them.
 
-    <p><b>What risks are associated with this study?</b></p>
+### <a id="p:open-closed" href="#p:open-closed">Collaboration</a>
 
-    <p>Participation in this study may involve some added risks or discomforts.
-    These include the following:</p>
+**This is not the same collaboration policy you have seen in your other
+programming courses. Read it carefully.**
 
-    <ol> <li>A potential for the loss of confidentiality.   We will not share your
-    personally identifying data with people outside our research team.  Data will
-    only be kept in anonymized form for research purposes.  Course data will not
-    used for this research study until after final grades have been posted and will
-    be rendered confidential by removing any identifiers before analysis.  Your
-    instructor will not know whether or not you are participating in this study
-    until after final grades have been posted.  Data from students who opt out of
-    the study will be removed prior to data analysis.  Research records will be
-    kept confidential to the extent allowed by law. Research records may be
-    reviewed by the UCSD Institutional Review Board.  </li></ol>
+There are two types of assignments in this course:
 
-    <p> Since this is an investigational study, there may be some unknown risks
-    that are currently unforeseeable. You will be informed of any significant new
-    findings.  </p>
+- **Open collaboration** assignments, for which you can talk to anyone else in the
+  course, post snippets of code on Piazza, get lots of help from TAs, and
+  generally come up with solutions collaboratively. TAs will be happy to look
+  at your code and suggest fixes, along with explaining them.
+  
+  There are a few restrictions:
+  - Any code that you didn't write must be cited in the README file that goes
+    along with your submission
+      - **Example:** On an open collaboration assignment, you and another
+        student chat online about the solution, you figure out a particular
+        helper method together. Your README should say “The FOO function was
+        developed in collaboration with Firstname Lastname”
+      - **Example:** On an open collaboration assignment, a student posts the
+        recursive method calls they used to solve a problem you were
+        struggling with. Your README should say “I used the code from
+        https://piazza.com/class/id-of-post”
+  - Anyone you work with in-person must be noted in your README
+      - **Example:** You and another student sit next to each other in the lab,
+        and point out mistakes and errors to one another as you work through
+        the assignment. As a result, your solutions are substantially similar.
+        Your README should say “I collaborated with Firstname Lastname to
+        develop my solution.”
+  - You cannot share an entire repository of code or paste an entire solution
+    into Piazza. Keep snippets to reasonable, descriptive chunks of code; think
+    a dozen lines or so to get the point across.
+  - You still _cannot_ use code that you find online, or get assistance or code
+    from students outside of this offering of the class. All the code that is
+    handed in should be developed by you or someone in the class.
 
+- **Closed collaboration** assignments, where you cannot collaborate with others.
+  You can ask clarification questions and report potential issues as private
+  posts on Piazza or of staff members. However, staff will not look at your
+  code or comment on it. Lab/office hours these weeks are for conceptual
+  questions or for questions about past assignments only, no code assistance.
+  Treat these assignments like take-home exams.
 
-    <p><b>What are the alternatives to participating in this study?</b></p>
+  On these assignments:
+    - You cannot look at or use anyone else's code in any way.
+    - You cannot discuss the assignment with anyone other than the course
+      staff.
+    - You should expect that staff members will politely say “I won't help
+      with that” if you ask a question about your algorithm or code for a
+      closed collaboration assignment.
+    - You cannot post publicly about the assignment on Piazza or elsewhere
+      online
+    - All of the examples in the open collaboration section above would be
+      academic integrity violations on a closed collaboration assignment.
 
+_Rationale_ – In your professional programming life, some of your work will
+be highly collaborative with lots of expert advice available from senior
+developers and from sites like StackOverflow. This is a common case in
+companies, in academia, and on open-source projects. In contrast, some of
+your work will involve figuring out programming problems on your own, where
+you are the first person to encounter an issue, or the first person to try
+using a new library in the context of your application. You should get
+experience in both types of situations; the former is similar to open
+collaboration, and the latter is similar to closed collaboration.
 
-    <p>The alternatives to participation in this study are not to participate.
-    If you choose to opt-out of participating in this research study, we will
-    exclude your data from analysis.  Whether you participate will have no
-    impact on your experience or grade in the associated class as the professor
-    will not know who is or is not participating in the study until after final
-    grades are assigned.</p>
+In terms of courses, this split also makes sense. Programming assignments
+serve (at least) two roles. First and foremost, they are a mechanism for you
+to learn! By directly applying the techniques and skills we discuss in class,
+you get practice and become a better programmer. Second, they are an
+assessment mechanism – as instructional staff we use them to evaluate your
+understanding of concepts as demonstrated by your programs. Open
+collaboration can reduce frustration while learning and give you chances to
+enjoy collaboration and lots of help, but may not let us accurately evaluate
+your understanding. Closed collaboration assignments are an opportunity for
+you to demonstrate what you know by way of programming.
 
-    <p><b>What benefits can be reasonably expected?</b></p>
+Programming assignments will explicitly list whether they are open or closed
+collaboration.
 
-    <p>There is no direct benefit to you for participating in the study. The
-    investigator, however, may learn more about how to improve student
-    learning, and society may benefit from this knowledge.</p>
+You should be familiar with [the UCSD
+guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2)
+on academic integrity as well.
 
-    <p><b>Can you choose to not participate or withdraw from the study without
-    penalty or loss of benefits?</b></p>
+### <a id="p:grading" href="#p:grading">Grading Programming Work</a>
 
-    <p> Participation in research is entirely voluntary. You may refuse to
-    participate or withdraw or refuse to answer specific questions in an
-    interview or on a questionnaire at any time without penalty or loss of
-    benefits to which you are entitled. If you decide that you no longer wish
-    to continue in this study before the end of the quarter, simply respond to
-    the online opt-out form here: <a
-    href="https://goo.gl/forms/JSBRjEmkES6W6xYc2">https://goo.gl/forms/JSBRjEmkES6W6xYc2</a>.
-    If you decide to opt out after the quarter has ended, you must contact Ying
-    Xiong (yix184@ucsd.edu) and give the quarter and the course from which you
-    would like your data withdrawn.</p>
+Each programming assignment will have a portion that is automatically graded,
+and a portion that is manually graded by the course staff.
 
-    <p>You will be told if any important new information is found during the
-    course of this study that may affect your wanting to continue.</p>
+After each assignment's deadline, we will open a resubmission for that
+assignment for two weeks (this time period may be shorter for assignments
+near the end of the quarter). You can resubmit to improve the automated part
+of your grade. You can gain up to _half_ the points you lost in the initial
+submission through resubmission; we'll divide the difference of the initial
+and resubmission by 2 and add it to the original. There's no penalty for
+(accidentally or intentionally) resubmitting work that is marked lower. There
+is no way to resubmit and recover points for the manually graded part of
+assignments.
 
-    <p><b>Can you be withdrawn from the study without your consent?</b><p>
+This policy also serves as the late policy for programming assignments; if
+you don't submit an assignment, the initial grade is 0, and you can get half
+of the automated points by submitting after the deadline. There is no other
+late policy for programming work.
 
-    <p> The PI may remove you from the study without your consent if the PI feels
-    it is in your best interest or the best interest of the study. You may also be
-    withdrawn from the study if you do not follow the instructions given you by the
-    study personnel.</p>
+_Example_: On a PA, you submit and get 40/80 for the automated score, and
+10/20 for the manual score. After the deadline, you find many of your
+mistakes and resubmit, and get a new automated grade of 70/80. Your new score
+would be
 
-    <p><b>Will you be compensated for participating in this study?</b><p>
+(70 - 40) / 2 + 40 = 55
 
-    <p>You will not be compensated for participating in this study.</p>
+for the automated part, and the manually-graded part would remain 10, for
+total of 65 (rather than the original 50) points on the assignment.
 
-    <p><b>Are there any costs associated with participating in this study?</b><p>
-
-    <p>There will be no cost to you for participating in this study.</p>
-
-    <p><b>Who can you call if you have questions?</b><p>
-
-    <p>Gabriele Wienhausen and/or her colleague has explained this study to you and
-    answered your questions. If you have other questions or research-related
-    problems, you may reach Gabriele Wienhausen at gwienhausen@ucsd.edu or (858)
-    534-3958.</p>
-
-
-    <p>You may call the Human Research Protections Program Office at
-    858-246-HRPP (858-246-4777) to inquire about your rights as a research
-    subject or to report research-related problems.</p>
-
-    <p><b>Your Consent</b><p>
-
-    If you consent to participate in this study and are at least 18 years old,
-    no action is needed.  If you DO NOT consent to participate in this study,
-    or you choose to opt-out at any time during the quarter, please submit this
-    form online at <a
-    href="https://goo.gl/forms/JSBRjEmkES6W6xYc2">https://goo.gl/forms/JSBRjEmkES6W6xYc2</a>.
-    Your instructor will not have access to the list of students who opted out
-    until after grades are posted.  Note that you must separately opt-out of
-    the study for each course involved in this study.</p>
-
-    <em>Site design inspired by Andy Ko's <a href="http://faculty.washington.edu/ajko/info360/">http://faculty.washington.edu/ajko/info360/</a></em>
-    </div>
-    </div>
-
+In addition, closed-collaboration assignments are treated as **open** once
+their deadline passes. You can talk to other students about them, get coding
+help from staff on them, and so on.
 

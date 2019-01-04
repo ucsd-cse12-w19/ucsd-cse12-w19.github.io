@@ -1,54 +1,24 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+layout: page
+title: CSE 12 Winter 2019, A &amp; B Sections
+doodle: "/doodle.png"
+---
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-    <style>
-h1 {
-  font-size: 20pt;
-}
-h2 {
-  font-size: 16pt;
-}
-h3 {
-  font-size: 14pt;
-}
-    </style>
 
-    <title>CSE 12 Winter 2019, A &amp; B Sections</title>
-  </head>
-  <body>
+# [This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
+# Basic Data Structures and Object-Oriented Design</h1>
+## _CSE12, Winter 2019, A/B_
 
-  <div class='container'>
+<a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
 
-    <div class="row justify-content-center">
-    <div class="col-4">
-    <img width=100% src="./doodle.png"></img>
-    </div>
-    </div>
-
-    <div class="row justify-content-center">
-    <div class="col-7">
-    <h1>[This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
-    <h1>Basic Data Structures and Object-Oriented Design</h1>
-    <h2><em>CSE12, Winter '19, A/B</em></h2>
-
-    <p>
-    <a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
-    </p>
-
-    <p>
-    <a href="#basics">Basics</a> - 
-    <a href="#schedule">Schedule</a> - 
-    <a href="#staff">Staff &amp; Resources</a> - 
-    <a href="#grading">Grading</a> -
-    <a href="#policies">Policies</a>
-    </p>
+<p>
+<a href="#basics">Basics</a> - 
+<a href="#schedule">Schedule</a> - 
+<a href="#staff">Staff &amp; Resources</a> - 
+<a href="#grading">Grading</a> -
+<a href="#policies">Policies</a>
+</p>
 
     <p>
 This course focuses on two main topics: The basics of organizing data for
@@ -78,6 +48,32 @@ over.
 
     <h3>Lab Hours</h3>
 
+    <p>
+
+      PA 1 testing      - open
+      PA 2 paginator    - closed (with review & resubmission)
+      PA 3 maze         - open
+      PA 4 big-O        - closed (with review & resubmission)
+      PA 5 partitacale  - open
+      PA 6 n-grams      - closed (with review & resubmission)
+      PA 7 hash measure - open
+      PA 8 heaps        - closed (no review or resubmission)
+
+      (6) PA 1 testing        closed (with code mentoring)   Hours are for account, eclipse setup, etc.
+      (4) PA 2 paginator      open                           Hours code mentor PA1, help with PA2. Grading PA1
+      (6) PA 3 maze           closed (with code mentoring)   Hours code mentor PA1. Grading PA2.
+      (4) PA 4 big-O          open                           Hours code mentor PA3, help with PA4. Grading PA3
+      (6) PA 5 partitacal     closed (with code mentoring)   Hours code mentor PA3. Grading PA4
+      (4) PA 6 n-grams        open                           Hours code mentor PA5, help with PA6. Grading PA5
+      (6) PA 7 hash measure   closed (no code mentoring)     Hours code mentor PA5. Grading PA6.
+      (4) PA 8 heaps          open                           Hours help review PA7, help with PA8. Grading PA7
+
+    There are numerous lab hours available to you, staffed by TAs and tutors.
+    These hours are available for you to get help on past assignments where
+    you struggled in order to prepare them for resubmission (see LINK).
+
+    </p>
+
     <h3>Piazza</h3>
 
     <h3>Discussion Sections</h3>
@@ -86,9 +82,11 @@ over.
 
     <a id="grading">
     <h2>Grading</h2>
-    <a id="policies"></a>
 
+    <a id="policies"></a>
     <h2>Policies</h2>
+
+
 
     <h3>Sections</h3>
 
@@ -240,18 +238,5 @@ over.
     <em>Site design inspired by Andy Ko's <a href="http://faculty.washington.edu/ajko/info360/">http://faculty.washington.edu/ajko/info360/</a></em>
     </div>
     </div>
-
-    
-
-  </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  </body>
-</html>
 
 

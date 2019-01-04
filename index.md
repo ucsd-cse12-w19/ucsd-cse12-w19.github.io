@@ -4,8 +4,6 @@ title: CSE 12 Winter 2019, A &amp; B Sections
 doodle: "/doodle.png"
 ---
 
-
-
 # Basic Data Structures and Object-Oriented Design
 
 [This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
@@ -121,10 +119,10 @@ programming courses. Read it carefully.**
 
 There are two types of assignments in this course:
 
-- **Open collaboration** assignments, for which you can talk to anyone else in the
-  course, post snippets of code on Piazza, get lots of help from TAs, and
-  generally come up with solutions collaboratively. TAs will be happy to look
-  at your code and suggest fixes, along with explaining them.
+- **Open collaboration** assignments, for which you can talk to anyone else
+  in the course, post snippets of code on Piazza, get lots of help from TAs,
+  and generally come up with solutions collaboratively. TAs will be happy to
+  look at your code and suggest fixes, along with explaining them.
   
   There are a few restrictions:
   - Any code that you didn't write must be cited in the README file that goes
@@ -149,6 +147,15 @@ There are two types of assignments in this course:
   - You still _cannot_ use code that you find online, or get assistance or code
     from students outside of this offering of the class. All the code that is
     handed in should be developed by you or someone in the class.
+
+  This doesn't mean the staff will be handing out answers. We'll mostly
+  respond with leading questions and advice, and you shouldn't expect a
+  direct answer to questions like “am I done?” or “is my code right?”
+
+  There is no guarantee the assistance you get from your classmates is
+  correct. It is your responsibility to use your judgment to avoid using an
+  idea on Piazza that is wrong, or doesn't work with your solution; we won't
+  necessarily tell you one way or another while the assignment is out.
 
 - **Closed collaboration** assignments, where you cannot collaborate with others.
   You can ask clarification questions and report potential issues as private

@@ -117,36 +117,62 @@ assignments, and you should pay careful attention to them.
 **This is not the same collaboration policy you have seen in your other
 programming courses. Read it carefully.**
 
+In your professional programming life, some of your work will be highly
+collaborative with lots of expert advice available from senior developers and
+from sites like StackOverflow. This is a common case in companies, in
+academia, and on open-source projects. In contrast, some of your work will
+involve figuring out programming problems on your own, where you are the
+first person to encounter an issue, or the first person to try using a new
+library in the context of your application. You should get experience in both
+types of situations; we might call the former kind of problem **open to
+collaboration** and the latter **closed to collaboration**.
+
+In terms of courses, this split also makes sense. Programming assignments
+serve (at least) two roles. First and foremost, they are a mechanism for you
+to learn! By directly applying the techniques and skills we discuss in class,
+you get practice and become a better programmer. Second, they are an
+assessment mechanism – as instructional staff we use them to evaluate your
+understanding of concepts as demonstrated by your programs. Open
+collaboration can reduce frustration while learning and give you chances to
+enjoy collaboration and lots of help, but may not let us accurately evaluate
+your understanding. Closed collaboration assignments are an opportunity for
+you to demonstrate what you know by way of programming.
+
 There are two types of assignments in this course:
 
 - **Open collaboration** assignments, for which you can talk to anyone else
   in the course, post snippets of code on Piazza, get lots of help from TAs,
   and generally come up with solutions collaboratively. TAs will be happy to
-  look at your code and suggest fixes, along with explaining them.
+  look at your code and suggest approaches and fixes.
   
   There are a few restrictions:
   - Any code that you didn't write must be cited in the README file that goes
     along with your submission
-      - **Example:** On an open collaboration assignment, you and another
-        student chat online about the solution, you figure out a particular
-        helper method together. Your README should say “The FOO function was
-        developed in collaboration with Firstname Lastname”
-      - **Example:** On an open collaboration assignment, a student posts the
-        recursive method calls they used to solve a problem you were
-        struggling with. Your README should say “I used the code from
-        https://piazza.com/class/id-of-post”
+
+    **Example:** On an open collaboration assignment, you and another
+    student chat online about the solution, you figure out a particular
+    helper method together. Your README should say “The FOO function was
+    developed in collaboration with Firstname Lastname”
+
+    **Example:** On an open collaboration assignment, a student posts the
+    recursive method calls they used to solve a problem you were
+    struggling with. Your README should say “I used the code from
+    https://piazza.com/class/id-of-post”
+
   - Anyone you work with in-person must be noted in your README
-      - **Example:** You and another student sit next to each other in the lab,
-        and point out mistakes and errors to one another as you work through
-        the assignment. As a result, your solutions are substantially similar.
-        Your README should say “I collaborated with Firstname Lastname to
-        develop my solution.”
+
+    **Example:** You and another student sit next to each other in the lab,
+    and point out mistakes and errors to one another as you work through
+    the assignment. As a result, your solutions are substantially similar.
+    Your README should say “I collaborated with Firstname Lastname to
+    develop my solution.”
   - You cannot share an entire repository of code or paste an entire solution
     into Piazza. Keep snippets to reasonable, descriptive chunks of code; think
     a dozen lines or so to get the point across.
   - You still _cannot_ use code that you find online, or get assistance or code
     from students outside of this offering of the class. All the code that is
     handed in should be developed by you or someone in the class.
+
 
   This doesn't mean the staff will be handing out answers. We'll mostly
   respond with leading questions and advice, and you shouldn't expect a
@@ -164,38 +190,16 @@ There are two types of assignments in this course:
   questions or for questions about past assignments only, no code assistance.
   Treat these assignments like take-home exams.
 
-  On these assignments:
+  On closed collaboration assignments:
     - You cannot look at or use anyone else's code in any way.
-    - You cannot discuss the assignment with anyone other than the course
-      staff.
+    - You cannot discuss the assignment, even in general terms, with anyone
+      other than the course staff.
     - You should expect that staff members will politely say “I won't help
-      with that” if you ask a question about your algorithm or code for a
-      closed collaboration assignment.
+      with that” if you ask a question about your algorithm or code.
     - You cannot post publicly about the assignment on Piazza or elsewhere
-      online
+      online.
     - All of the examples in the open collaboration section above would be
-      academic integrity violations on a closed collaboration assignment.
-
-_Rationale_ – In your professional programming life, some of your work will
-be highly collaborative with lots of expert advice available from senior
-developers and from sites like StackOverflow. This is a common case in
-companies, in academia, and on open-source projects. In contrast, some of
-your work will involve figuring out programming problems on your own, where
-you are the first person to encounter an issue, or the first person to try
-using a new library in the context of your application. You should get
-experience in both types of situations; the former is similar to open
-collaboration, and the latter is similar to closed collaboration.
-
-In terms of courses, this split also makes sense. Programming assignments
-serve (at least) two roles. First and foremost, they are a mechanism for you
-to learn! By directly applying the techniques and skills we discuss in class,
-you get practice and become a better programmer. Second, they are an
-assessment mechanism – as instructional staff we use them to evaluate your
-understanding of concepts as demonstrated by your programs. Open
-collaboration can reduce frustration while learning and give you chances to
-enjoy collaboration and lots of help, but may not let us accurately evaluate
-your understanding. Closed collaboration assignments are an opportunity for
-you to demonstrate what you know by way of programming.
+      academic integrity violations.
 
 Programming assignments will explicitly list whether they are open or closed
 collaboration.
@@ -236,5 +240,6 @@ total of 65 (rather than the original 50) points on the assignment.
 
 In addition, closed-collaboration assignments are treated as **open** once
 their deadline passes. You can talk to other students about them, get coding
-help from staff on them, and so on.
+help from staff on them, and so on. Please make use of these resources to
+understand where your solution was incorrect or incomplete, and resubmit!
 

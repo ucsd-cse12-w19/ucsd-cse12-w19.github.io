@@ -22,14 +22,25 @@ designing and understanding programs and the structure of data they work
 over.
 
 Basics: <a href="#b:lec">Lecture</a>, <a href="#b:disc">Discussion</a>,
-<a href="#pa">Programming Assignments</a>, and <a
+<a href="#programming">Programming Assignments</a>, and <a
 href="#b:exams">Exams</a>. Check the <a href="#schedule">Schedule</a> for
 class topics, links to resources, and assignment due dates. The <a
 href="#staff">course instructional team</a> is here to help you learn: <a
-href="#pa:help">ask for help and advice</a>!
+href="#help">ask for help and advice</a>!
+
+This page also describes how you will be <a href="#grading">graded</a>, and
+there are <a href="#policies">other course policies</a> you should be
+familiar with as well.
 
 ## Schedule
 <a id="schedule"></a>
+
+This schedule has links to the programming and review activities you will
+complete for the course. You are responsible for checking this schedule and
+completing work by the deadlines given, which are always at 11pm local San
+Diego time on the listed date.
+
+<iframe width="100%" height="800px" style="border: none; border-top: 1px solid grey; border-spacing: 2px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPFf5_4n-Mn9YMsZnGaQiiApY6FWWRPNHoow6-CIPdtUZ0BiLp7W3oFYklnkzojgbUpPkv6_KjHH9H/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ## Basic Course Components
 <a id="basics"></a>
@@ -56,7 +67,9 @@ Expect class to be interactive; you'll work through problems in groups, compare 
 
 Discussions will reinforce concepts from class and introduce concepts that
 are especially helpful for completing programming assignments. Students from
-either section can attend either discussion.
+either section can attend either discussion. In general, the Tuesday section
+will focus more on reinforcing concepts, and Fridays will focus more on
+introducing programming assignments.
 
 <table class="table table-striped">
 <thead>
@@ -72,15 +85,27 @@ either section can attend either discussion.
 </tr>
 </table>
 
-### <a id="b:materials" href="#b:materials">Materials</a>
+<a id="staff"></a>
+## Staff
 
+<p>
+<a href="https://jpolitz.github.io" target="_blank">Prof Joe Gibbs Politz</a> (Instructor)
+</p>
+
+There are 18 staff to help with your learning. You can find their names and
+pictures on <a href="https://piazza.com/ucsd/winter2019/cse12/staff"
+target="_blank">Piazza Staff page</a>. Their lab and office hour schedule
+will appear below when it is finalized.
+
+### <a id="b:materials" href="#b:materials">Materials</a>
 
 There is no required textbook for the course. 
 
-I have made a ZyBook available that I've used in the past ([LINK COMING SOON
+There is a ZyBook available that has been used in the past ([LINK COMING SOON
 UCSDCSE12PolitzWinter2019]). You can purchase a subscription and use it at
 your convenience; it serves as a useful reference and is organized in the
-order material is presented in this course.
+order material is presented in this course, and there will be links to
+relevant ZyBooks sections in with the course schedule.
 
 We may use other on-line resources during the quarter that may be required
 reading or activities. These will all be free and linked from the schedule.
@@ -105,6 +130,101 @@ You'll be receiving starter code through a service called <a
 href="https://github.com" target="_blank">Github</a>. You aren't required to
 have an account to complete coursework, but it can be useful for you to make
 one.
+
+<a id="p:engage"></a>
+<h3>Engagement</h3>
+
+We highly recommend actively participating in class, attending discussion,
+and completing the weekly review quizzes. Regularly engaging with the class
+in these ways counts towards the Engagement component of your overall score.
+
+This score is calculated on a weekly basis (starting in Week 1). The maximum
+number of points you can earn in one week is 6. The lowest weekly
+participation score will be dropped when calculating your overall engagement
+average.
+
+Earn engagement points by:
+* __In class participation via iClickers__  In Weeks 1 through 10 (starting with the second lecture of the quarter), you will
+earn credit for attending and participating in lecture (2 points each) and discussion section (1 point each, up to a maximum
+of 2 points per week).
+Clicker questions will be graded for participation only and not for correctness of the response.
+Full credit for clicker points for a given day will be
+awarded for clicking in at least 80% of the time that day. Forgetting your clicker counts as missing a class, so please
+remember to bring it!
+ We have you
+respond to problems in lecture because there’s quite a bit of evidence that
+sitting and listening passively [probably isn’t the best way to
+teach or learn
+science](https://www.nature.com/news/why-we-are-teaching-science-wrong-and-how-to-make-it-right-1.17963). <a id="p:clicker-ai"></a>
+ _Do not attempt to falsify iClicker or discussion participation or review quiz submissions; this would be considered a violation of academic integrity._
+
+* __Weekly (P)review quiz__ Online quizzes review the week's material and preview some upcoming examples each week. You can
+submit your answers to each quiz as many times as you like. The latest submission before 11pm on Tuesday will count towards
+your engagement score. Each weekly review quiz will be worth 6 points.  Review quizzes will stay available even after the
+deadline; in the past, students have found working through them to be helpful when studying for exams.
+<a id="p:quiz-ai"></a>
+_The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from
+this website,
+but not to other references. You may not share information about the review quiz with others, take the review quiz in someone
+else's name, or ask anyone for prior knowledge about the review quiz._
+
+
+We encourage you to find your preferred method for staying engaged with the course.  There are lots of ways to earn
+full credit for a week's engagement.  For example: (1) attending all lectures (for the section in which you're enrolled); or
+(2) attending two lectures and two discussion sections; or (3) answering all questions on the review quiz correctly; or (4)
+attending two lectures and getting two answers correct on the review  quiz; etc.
+
+<a id="b:exams"></a>
+<h3>Exams</h3>
+
+There will be two exams during the quarter, held in class during Week 4
+
+**Friday 2/1/2019**
+
+and Week 8
+
+**Wednesday 2/27/2018  8pm-9:50pm**
+
+of the Fall quarter.  The final exams depend on your section:
+
+**A Section: Monday March 18, 8am**
+
+**B Section: Wednesday Marh 20, 3pm**
+
+Seats will be assigned for all exam sessions and announced beforehand, and you
+must bring your school ID to the exam. All work on exams is to be done on your
+own, and you are not allowed to use any electronics or study aids during the
+exam (aside from those needed for University-approved academic accommodations).
+You may not speak to any other student in the exam room while the exam is in
+progress (including after you hand in your own exam).  You may not share any
+information about the exam with any student who has not yet taken it (including
+students in future quarters of CSE12).
+
+The first two exams will each be worth 8% of your final grade. The final exam
+will be worth 24% of your final grade. The final exam will have a specific
+structure – it will be broken into three parts corresponding to material from
+the first exam, the second exam, and the remainder of the course. Your grade
+for each midterm will be the *maximum* of the midterm grade and the score you
+get on the corresponding part of the final exam.
+
+For example, if you get 50% of the points for midterm 1 and 100% of the points
+for midterm 2, and then score a 75% on part 1 of the final, 25% on part 2, and
+100% on part 3, you would get:
+
+- MAX(0.5, 0.75) * 8 = 6 points for midterm 1 (0.75 was higher, so the final
+  increased the midterm score!)
+- MAX(1, 0.25) * 8 = 8 points for midterm 2 (0.25 was lower, so the original
+  midterm score was used)
+- 0.75 * 8 + 0.25 * 8 + 1 * 8 = 16 points for the final exam (the score on
+  the final exam is the same regardless of how the midterms went)
+- A total of 30 out of 40 exam points towards your final grade
+
+This policy also covers what happens if you miss a midterm for any reason. If
+you are absent for a midterm, you get a 0 initially, and then whatever score
+you get on the final for that section will be applied to your midterm grade.
+There are no make-up midterms, and the final exam policy is governed by the
+[university's
+policies](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/).
 
 ## <a id="programming" href="#programming">Programming</a>
 
@@ -135,12 +255,12 @@ assessment mechanism – as instructional staff we use them to evaluate your
 understanding of concepts as demonstrated by your programs. Open
 collaboration can reduce frustration while learning and give you chances to
 enjoy collaboration and lots of help, but may not let us accurately evaluate
-your understanding. Closed collaboration assignments are an opportunity for
+your understanding. Closed assignments are an opportunity for
 you to demonstrate what you know by way of programming.
 
-There are two types of assignments in this course:
+There are two types of assignments in this course, **open** and **closed**:
 
-- **Open collaboration** assignments, for which you can talk to anyone else
+- **Open** assignments, for which you can talk to anyone else
   in the course, post snippets of code on Piazza, get lots of help from TAs,
   and generally come up with solutions collaboratively. TAs will be happy to
   look at your code and suggest approaches and fixes.
@@ -149,12 +269,12 @@ There are two types of assignments in this course:
   - Any code that you didn't write must be cited in the README file that goes
     along with your submission
 
-    **Example:** On an open collaboration assignment, you and another
+    **Example:** On an open assignment, you and another
     student chat online about the solution, you figure out a particular
     helper method together. Your README should say “The FOO function was
     developed in collaboration with Firstname Lastname”
 
-    **Example:** On an open collaboration assignment, a student posts the
+    **Example:** On an open assignment, a student posts the
     recursive method calls they used to solve a problem you were
     struggling with. Your README should say “I used the code from
     https://piazza.com/class/id-of-post”
@@ -183,14 +303,14 @@ There are two types of assignments in this course:
   idea on Piazza that is wrong, or doesn't work with your solution; we won't
   necessarily tell you one way or another while the assignment is out.
 
-- **Closed collaboration** assignments, where you cannot collaborate with others.
+- **Closed** assignments, where you cannot collaborate with others.
   You can ask clarification questions and report potential issues as private
   posts on Piazza or to staff members. However, staff will not look at your
   code or comment on it. Lab/office hours these weeks are for conceptual
   questions or for questions about past assignments only, no code assistance.
   Treat these assignments like take-home exams.
 
-  On closed collaboration assignments:
+  On closed assignments:
     - You cannot look at or use anyone else's code in any way.
     - You cannot discuss the assignment, even in general terms, with anyone
       other than the course staff.
@@ -198,7 +318,7 @@ There are two types of assignments in this course:
       with that” if you ask a question about your algorithm or code.
     - You cannot post publicly about the assignment on Piazza or elsewhere
       online.
-    - All of the examples in the open collaboration section above would be
+    - All of the examples in the open section above would be
       academic integrity violations.
 
 Programming assignments will explicitly list whether they are open or closed
@@ -242,6 +362,44 @@ In addition, closed-collaboration assignments are treated as **open** once
 their deadline passes. You can talk to other students about them, get coding
 help from staff on them, and so on. Please make use of these resources to
 understand where your solution was incorrect or incomplete, and resubmit!
+
+## <a id="help" href="#help">Getting Help</a>
+
+<h3>Working and getting help in the lab</h3>
+
+You have <a href="https://sdacs.ucsd.edu/~icc/index.php" target="_blank">computer accounts</a> for the labs in the CSE building.  Even if you choose to work on your programming assignments on
+your own computer, you can work in these labs. The type of programming assignment you are working on will determine whether you can <a href="#pa:pa-collab">collaborate with other students</a> in the lab.
+
+During <a href="#staff">open lab hours</a>, tutors, TAs, and the
+instructors will be available to help. We will work with you to get you un-stuck when you're not sure what to do next on an
+assignment. We will be using the <a href="https://autograder.ucsd.edu" target="_blank">Autograder</a> system to manage to queue of
+requests for help in lab.  To get in the queue, log into Autograder with your @ucsd.edu email and submit your question as a ticket:
+
+- Give a meaningful question or problem statement in your ticket.
+- Be prepared! When the tutor shows up, you should be ready to reproduce the issue you're having, have a test case that doesn't produce the right output, show them a drawing of the situation you're confused about, etc.
+
+Expect to have about 5 minutes with a tutor (or TA or instructor): you probably won't have the solution at the end of the conversation, but you should feel un-stuck and ready to try new approaches.
+
+<a id="pa:piazzahelp"></a>
+<h4>Asking & Answering questions on Piazza</h4>
+
+Piazza is an online discussion board where we can make announcements and students can ask questions. Both we (the course staff) and your classmates can answer your questions. There are a few kinds of questions you should ask on Piazza:
+
+- Private questions about closed programming assignments for clarification
+- Private questions about your grade / account
+- Public questions about open programming assignments
+- Public questions about the content of lecture, discussion, lab, and any readings
+
+For each assignment, you will find a Frequently Asked Questions post, where we will answer all common questions we receive in office hours and via (private) Piazza posts. If you ask a question that's already answered in that post, we'll likely just send you a link to that post. That post will be updated as new important questions and answers come in.
+
+When answering questions, be polite, be clear, and assume the best intentions of the person asking. If it turns out you make a
+mistake or were wrong, admit it with a smile (emoji are great for this 😊), and make sure the correct information is clear.
+Above all, keep in mind that the course is a community whose goal is to foster a positive learning environment for everyone.
+For public discussion, note that answers from your classmates are not official! They could be downright wrong or misleading,
+completely by accident. “My classmate said so on Piazza” is not a legitimate justification in most arguments, though they may
+indeed lead you in helpful directions.
+
+
 
 ## <a id="grading" href="#grading">Grading</a>
 
@@ -302,7 +460,23 @@ mistake was made. If you don't make a request in the given period, the grade
 you were initially given is final. All regrades should be made through
 Gradescope's interface.
 
-## <a id="policies" href="#policies">Policies</a>
+## <a id="policies" href="#policies">Other Policies</a>
+
+<a id="p:community"></a>
+<h3>The CSE 12 Community</h3>
+CSE 12 is a large course: there are 19 people on the instructional team and over 300 students.  We are all here because we are excited about Computer Science and want to ensure a productive, interesting, and useful quarter.
+
+At UC San Diego, we agree to hold ourselves to the <a href="https://ucsd.edu/about/principles.html" target="_blank">Principles of Community</a> of respect, inclusion, and integrity.  This translates to all our interactions in this course, and beyond.
+
+These practices go beyond the university setting. A huge amount of modern computer science happens via collaboration, in text, online. Sites like Stack Overflow and Github hold incredible wealths of information generated through asking and answering questions. Computer science research, large system development, and cutting-edge design happens through professional, high-volume mailing lists. Practicing using Piazza professionally prepares you for these situations, so do it mindfully.
+
+Before you post a question or answer, consider:
+
+- Does it contribute to a positive, constructive, and respectful forum for discussion and learning?
+- <a id="p:piazza-ai"></a>Does it contain contain source code from your solution or other information that shouldn't be shared class-wide? Consider if the assignment is open or closed.
+- Is it a question that's been asked before, that you could find via searching?
+
+If you make a post that violates these guidelines, we may make it private and remind you of these guidelines. Overall, our goal is to make the public content on Piazza constructive and relevant for everyone.
 
 <a id="p:research-consent"></a>
 <h3>Consent to Participate in Educational Research</h3>

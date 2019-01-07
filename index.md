@@ -240,12 +240,13 @@ programming courses. Read it carefully.**
 In your professional programming life, some of your work will be highly
 collaborative with lots of expert advice available from senior developers and
 from sites like StackOverflow. This is a common case in companies, in
-academia, and on open-source projects. In contrast, some of your work will
-involve figuring out programming problems on your own, where you are the
-first person to encounter an issue, or the first person to try using a new
-library in the context of your application. You should get experience in both
-types of situations; we might call the former kind of problem **open to
-collaboration** and the latter **closed to collaboration**.
+academia, and on open-source projects. It's a great way to get exposed to new
+techniques, share knowledge, and generally enjoy teamwork. In contrast, some
+of your work will involve figuring out programming problems on your own,
+where you are the first person to encounter an issue, or the first person to
+try using a new library in the context of your application. You should get
+experience in both types of situations; we might call the former kind of
+problem **open to collaboration** and the latter **closed to collaboration**.
 
 In terms of courses, this split also makes sense. Programming assignments
 serve (at least) two roles. First and foremost, they are a mechanism for you
@@ -277,7 +278,7 @@ There are two types of assignments in this course, **open** and **closed**:
     **Example:** On an open assignment, a student posts the
     recursive method calls they used to solve a problem you were
     struggling with. Your README should say “I used the code from
-    https://piazza.com/class/id-of-post”
+    https://piazza.com/class/id-of-post”.
 
   - Anyone you work with in-person must be noted in your README
 
@@ -289,9 +290,14 @@ There are two types of assignments in this course, **open** and **closed**:
   - You cannot share an entire repository of code or paste an entire solution
     into Piazza. Keep snippets to reasonable, descriptive chunks of code; think
     a dozen lines or so to get the point across.
-  - You still _cannot_ use code that you find online, or get assistance or code
-    from students outside of this offering of the class. All the code that is
+  - You still _cannot_ use code that you find online (no copying code
+    from StackOverflow or blogs online), or get assistance or code from
+    students outside of this offering of the class. All the code that is
     handed in should be developed by you or someone in the class.
+  - You are responsible for _understanding_ all the code you have written.
+    All of the programming problems on the PAs may show up on exams, where
+    you will need to have a thorough understanding of the PA to answer the
+    questions.
 
 
   This doesn't mean the staff will be handing out answers. We'll mostly
@@ -302,6 +308,10 @@ There are two types of assignments in this course, **open** and **closed**:
   correct. It is your responsibility to use your judgment to avoid using an
   idea on Piazza that is wrong, or doesn't work with your solution; we won't
   necessarily tell you one way or another while the assignment is out.
+
+  If we see that you used code from other students and didn't cite it in the
+  README, the penalty will range from a point deduction to an academic
+  integrity violation, depending on the severity. Always cite your work!
 
 - **Closed** assignments, where you cannot collaborate with others.
   You can ask clarification questions and report potential issues as private
@@ -314,8 +324,9 @@ There are two types of assignments in this course, **open** and **closed**:
     - You cannot look at or use anyone else's code in any way.
     - You cannot discuss the assignment, even in general terms, with anyone
       other than the course staff.
-    - You should expect that staff members will politely say “I won't help
-      with that” if you ask a question about your algorithm or code.
+    - You should expect that staff members will politely say “The course
+      policy says I can't help with that” if you ask a question about your
+      algorithm or code.
     - You cannot post publicly about the assignment on Piazza or elsewhere
       online.
     - All of the examples in the open section above would be
@@ -341,7 +352,7 @@ submission through resubmission; we'll divide the difference of the initial
 and resubmission by 2 and add it to the original. There's no penalty for
 (accidentally or intentionally) resubmitting work that is marked lower. There
 is no way to resubmit and recover points for the manually graded part of
-assignments.
+assignments, which must be submitted before the deadline.
 
 This policy also serves as the late policy for programming assignments; if
 you don't submit an assignment, the initial grade is 0, and you can get half

@@ -6,8 +6,6 @@ doodle: "/doodle.png"
 
 # Basic Data Structures and Object-Oriented Design
 
-[This site is under construction, and its contents are not the official policy of CSE12 until Monday, January 7]
-
 <a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
 
 This course focuses on two main topics: The basics of organizing data for
@@ -47,7 +45,7 @@ Diego time on the listed date.
 
 ### <a id="b:lec" href="#b:lec">Lecture</a>
 
-Expect class to be interactive; you'll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using iClickers (see <a href="#p:engage">Engagement</a> below). Due to space constraints, you must attend the lecture in which you're enrolled.
+Expect class to be interactive; you'll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using iClickers (see <a href="#b:engage">Engagement</a> below). You must attend the lecture in which you're enrolled.
 
 <table class="table table-striped">
 <thead>
@@ -85,17 +83,14 @@ introducing programming assignments.
 </tr>
 </table>
 
-<a id="staff"></a>
-## Staff
 
-<p>
-<a href="https://jpolitz.github.io" target="_blank">Prof Joe Gibbs Politz</a> (Instructor)
-</p>
+## <a id="staff" href="#staff">Staff</a>
 
-There are 18 staff to help with your learning. You can find their names and
-pictures on <a href="https://piazza.com/ucsd/winter2019/cse12/staff"
-target="_blank">Piazza Staff page</a>. Their lab and office hour schedule
-will appear below when it is finalized.
+There are many instructional staff to help with your learning. You can find
+their names and pictures on <a
+href="https://piazza.com/ucsd/winter2019/cse12/staff" target="_blank">Piazza
+Staff page</a>. Their lab and office hour schedule will appear below when it
+is finalized.
 
 ### <a id="b:materials" href="#b:materials">Materials</a>
 
@@ -131,8 +126,7 @@ href="https://github.com" target="_blank">Github</a>. You aren't required to
 have an account to complete coursework, but it can be useful for you to make
 one.
 
-<a id="p:engage"></a>
-<h3>Engagement</h3>
+### <a id="b:engage" href="#b:engage">Engagement</a>
 
 We highly recommend actively participating in class, attending discussion,
 and completing the weekly review quizzes. Regularly engaging with the class
@@ -183,7 +177,7 @@ There will be two exams during the quarter, held in class during Week 4
 
 and Week 8
 
-**Wednesday 2/27/2018  8pm-9:50pm**
+**Wednesday 2/27/2018**
 
 of the Fall quarter.  The final exams depend on your section:
 

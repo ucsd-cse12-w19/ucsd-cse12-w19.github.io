@@ -183,7 +183,7 @@ of the Fall quarter.  The final exams depend on your section:
 
 **A Section: Monday March 18, 8am**
 
-**B Section: Wednesday Marh 20, 3pm**
+**B Section: Wednesday March 20, 3pm**
 
 Seats will be assigned for all exam sessions and announced beforehand, and you
 must bring your school ID to the exam. All work on exams is to be done on your

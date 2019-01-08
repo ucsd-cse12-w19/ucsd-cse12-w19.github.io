@@ -184,7 +184,7 @@ and Week 8
 
 **Wednesday 2/27/2018**
 
-of the Fall quarter.  The final exams depend on your section:
+of the Winter quarter.  The final exams depend on your section:
 
 **A Section: Monday March 18, 8am**
 

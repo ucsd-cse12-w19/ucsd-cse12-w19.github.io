@@ -99,8 +99,9 @@ There is no required textbook for the course.
 There is a ZyBook available that has been used in the past. You can purchase a
 subscription and use it at your convenience; it serves as a useful reference
 and is organized in the order material is presented in this course, and there
-will be links to relevant ZyBooks sections in with the course schedule. To get
-access to the book:
+will be links to relevant ZyBooks sections in with the course schedule. There
+is also a significant amount of reference material at the end of the book for
+review of Java concepts. To get access to the book:
 
 1. Sign in or create an account at <a href="http://learn.zybooks.com">learn.zybooks.com</a>
 2. Enter zyBook code: UCSDCSE12PolitzWinter2019

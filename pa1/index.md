@@ -80,7 +80,7 @@ budget. You send a message with the interface above to your team of
 interns and tell them to implement it.
 
 A few days later, you realize you sent the message to _all_ the interns in
-your department, and you now have FILL _different_
+your department, and you now have 13 _different_
 implementations of `Basket`. All of them indeed implement the interface
 in terms of Java types, but as you begin trying them out, you notice that
 they don't all have the same behavior.
@@ -96,13 +96,13 @@ they differ.
 
 ## Getting the Code
 
-Instructions [here](https://docs.google.com/document/d/1JUvSvdgo29kXyMCVBuy3T5RipeGOmXAWxn2afkeVUwI/edit?usp=sharing)
+Instructions [here](https://docs.google.com/document/d/1rDByv2pGQbk0Ip78aI5tNECcqc7Yh40ssZROw3v60Gs/edit?usp=sharing)
 
 ## Code Layout
 
 There are a number of files provided in the starter code:
 
-- `Basket0-FILL.java`: These files hold the interns' implementations of
+- `Basket0-12.java`: These files hold the interns' implementations of
   `Basket`. You are free to read and inspect them as much as you'd
   like. You should *not* change them.
 - `Basket.java`: The interface we defined above. You should *not*
@@ -162,36 +162,61 @@ cover the space of issues, but they help.
 To run the tests, you can click the green arrow button in Eclipse with
 `BasketTest.java` open. The left-hand pane will show a tree view of
 which tests succeeded and failed on each Basket implementation. You can click
-on the dropdown arrow next to each Basket name to se which specific tests
+on the dropdown arrow next to each Basket name to see which specific tests
 suceeded and failed, and click on the individual tests to see them in the
 source window and see a description of the failures.
 
+You can also run the tests from the command line. We have provided a short
+script, `run-tests.sh`, that you can use to compile and run your program. From
+the base directory of the code, just run
+
+```
+$ bash run-tests.sh
+JUnit version 4.12
+.E............
+Time: 0.018
+There was 1 failure:
+1) addedHasCount1[Basket0](cse12pa1student.BasketTest)
+java.lang.AssertionError: expected:<0> but was:<1>
+
+FAILURES!!!
+Tests run: 13,  Failures: 1
+```
+
+
 Note that in this assignment, _a failing test is not (necessarily) a bad
-thing_. You are _trying_ to write tests that fail on some implementations
-and not others, in order to distinguish their behavior. As a result, you
-should not expect JUnit to be responding with all successes, because there's
-no “right” set of tests that will succeed all the time.
+thing_. You are _trying_ to write tests that fail on some implementations and
+not others, in order to distinguish their behavior. As a result, you should not
+expect JUnit to be responding with all successes. In fact, you should be
+consulting the various outputs to make sure that the test suite produces a
+_unique_ set of results on each `Basket` implementation. A consequence of this
+is that there should have at most one `Basket` implementation that succeeds on
+all the tests you wrote.
 
 ## README
 
-You will also write a README for the assignment. You should put it in a file
+You will also write a README for the assignment. You should put it in the file
 called `README.txt`, and write your answers in plain text, clearly marking
 them.
 
 1. Some of the `Basket` implementations are buggy – they have clear mistakes in
-some situations. Others simply differ in behavior. For each implementation,
-indicate if you think it has a clear _bug_, and describe the problem, or if
-it's simply an implementation _choice_. Give one sentence for each bag. Note
-that this requires exercising your own judgment, which we cannot do for you.
+   some situations. Others simply differ in behavior. For each implementation,
+   indicate if you think it has a clear _bug_, and describe the problem, or if
+   it's simply an implementation _choice_. Give one sentence for each bag. Note
+   that this requires exercising your own judgment, which we cannot do for you.
 
-Here's an example: “Basket0 is clearly buggy, because under no reasonable
-implementation should the bag claim to be empty after having something added.”
+   Here's an example: “Basket0 is clearly buggy, because under no reasonable
+   implementation should the bag claim to be empty after having something added.”
 
 2. Pick three of the `Basket` implementations other than `Basket0`. In 150
 words or less, describe the tests that differ across them, and why the
 implementations produce those different results. You don't have to talk in
 detail about _all_ of your tests, just the ones that usefully distinguish three
 implementations of your choice.
+
+In addition, put any collaborators you worked with in the README <a
+href="../#programming">as described in the collaboration policy for open
+assignments</a>.
 
 
 ## Style
@@ -220,7 +245,7 @@ for problems with style.
 
 ## Submitting
 
-You can submit as many times as you like, and you'll get some feedback on your
-submission. A submission will be available on Gradescope by Friday, Jan 11 for
-you to use to get feedback.
+A submission will be available on Gradescope by Friday, Jan 11 for you to use
+to get feedback. We will link to it here when ready. You can submit as many
+times as you like.
 

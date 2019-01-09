@@ -182,7 +182,7 @@ There will be two exams during the quarter, held in class during Week 4
 
 and Week 8
 
-**Wednesday 2/27/2018**
+**Wednesday 2/27/2019**
 
 of the Winter quarter.  The final exams depend on your section:
 

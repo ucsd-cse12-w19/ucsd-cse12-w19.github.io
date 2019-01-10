@@ -248,7 +248,6 @@ for problems with style.
 
 ## Submitting
 
-A submission will be available on Gradescope by Friday, Jan 11 for you to use
-to get feedback. We will link to it here when ready. You can submit as many
-times as you like.
+A submission will be available on Gradescope by Friday, Jan 11.  We will link
+to it here when ready. You can submit as many times as you like.
 

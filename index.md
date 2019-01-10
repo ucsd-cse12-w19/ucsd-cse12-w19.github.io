@@ -89,8 +89,12 @@ introducing programming assignments.
 There are many instructional staff to help with your learning. You can find
 their names and pictures on <a
 href="https://piazza.com/ucsd/winter2019/cse12/staff" target="_blank">Piazza
-Staff page</a>. Their lab and office hour schedule will appear below when it
-is finalized.
+Staff page</a>. Our “home base” is in B260 in the CSE building (basement), but
+you can work in any lab. You should use <a href="https://autograder.ucsd.edu"
+target="_blank">Autograder</a> to ask for help in open lab hours. Their
+schedule is below:
+
+<iframe src="https://calendar.google.com/calendar/embed?src=ucsd.edu_oj059o1f9u0416d8cor95v23d0%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### <a id="b:materials" href="#b:materials">Materials</a>
 

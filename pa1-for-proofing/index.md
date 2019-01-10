@@ -1,6 +1,6 @@
 ---
 layout: pa
-title: "PA1 (Open): Testing Shopping Bags"
+title: "PA1 (Open): Testing Shopping Baskets"
 doodle: "../doodle.png"
 ---
 
@@ -14,7 +14,7 @@ interface, and review a number of Java concepts.
 It is due on Tuesday, January 15 at 11pm. A submission link will be provided on
 Gradescope by Friday, January 11.
 
-## Carts and Interns
+## Baskets and Interns
 
 Imagine that you work for a hot new Web shopping company. You know it's
 critical to have shopping cart functionality so users can keep track of items
@@ -25,7 +25,7 @@ will be constructed from the class `Item` (given in `Item.java`), which you
 need to work with.
 
 As an excellent software designer, you consider things interface-first, and
-come up with the following interface for the `Cart`:
+come up with the following interface for the `Basket`:
 
 ```java
 public interface Basket {

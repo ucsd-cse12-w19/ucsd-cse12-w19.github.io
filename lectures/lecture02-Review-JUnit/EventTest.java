@@ -12,6 +12,29 @@ public class EventTest {
   LocalDateTime farFuture = LocalDateTime.of(2020, 1, 10, 10, 45);
 
   @Test
+  public void testBetween() {
+    // These are basic tests to make sure that the helper method works as
+    // expected. Note how much typing is saved, and how much readability is
+    // added, by creating the fields above and re-using them.
+    assertEquals(true, Event.between(this.ten30, this.nine45, this.ten45));
+    assertEquals(false, Event.between(this.nine45, this.ten30, this.ten45));
+    assertEquals(true, Event.between(this.nine45, this.farPast, this.farFuture));
+  }
+
+  public void testBetweenInclusiveStartExclusiveEnd() {
+    // These three tests help give me confidence that I implemented a between
+    // that is *exclusive* on end times but *inclusive* on start times.
+    assertEquals(false, Event.between(this.nine45, this.nine45, this.nine45));
+    assertEquals(true, Event.between(this.nine45, this.nine45, this.ten30));
+    assertEquals(false, Event.between(this.ten30, this.nine45, this.ten30));
+  }
+
+  // In each of the following tests, I tried to make the name of the method
+  // explain the purpose of the test. In each, I tried both orderings
+  // (e1.conflict(e2) and e2.conflict(e1)) because conflicts should be
+  // symmetric -- if e1 conflicts with e2 then e2 must conflict with e1.
+
+  @Test
   public void testEventConstructor() {
 
     Event e1 = new Event(this.nine45, this.ten45, "York 2622");

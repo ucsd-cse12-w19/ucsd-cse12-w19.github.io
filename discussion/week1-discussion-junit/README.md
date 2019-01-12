@@ -1,0 +1,3 @@
+# week1-discussion-junit
+
+Includes a simple `Course` class, `Student` interface, and three different implementations of the `Student` interface: classes `StudentA`, `StudentB`, and `StudentC`. The idea is that you have a `Student` interace with a method, `addCourse`, that adds a `Course` to their course list and you want to create JUnit tests for this method to see how each implementation performs (mirrors `pa1`). `StudentTest.java` contains simple sample JUnit tests, while `StudentTestSkeleton.java` provides the starter code for setting up the a class for creating tests, but does not yet have any JUnit tests defined (left empty as an activity for students to help build).

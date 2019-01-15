@@ -91,8 +91,12 @@ their names and pictures on <a
 href="https://piazza.com/ucsd/winter2019/cse12/staff" target="_blank">Piazza
 Staff page</a>. Our “home base” is in B260 in the CSE building (basement), but
 you can work in any lab. You should use <a href="https://autograder.ucsd.edu"
-target="_blank">Autograder</a> to ask for help in open lab hours. Their
-schedule is below:
+target="_blank">Autograder</a> to ask for help in open lab hours. In addition,
+Professor Joe and the four TAs each hold individual weekly office hours that
+you can attend. You can use either of these resources whether you're looking
+for help on an assignment or material covered in class. The schedule for both
+office hours and lab hours are below. For office hours, the room number is
+noted on the event itself.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=ucsd.edu_oj059o1f9u0416d8cor95v23d0%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 

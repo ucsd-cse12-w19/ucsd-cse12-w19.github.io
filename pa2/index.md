@@ -47,7 +47,7 @@ for array lists.
 
 In total, you will implement and thoroughly test:
 
-- `LinkedList(String[] initialElements)`
+- `LinkedSL(String[] initialElements)`
 - `isEmpty` for both types of list
 - `toArray` for both types of list
 - `transformAll` for both types of list
@@ -69,9 +69,9 @@ public interface StringChooser {
 
 ## Method and Class Descriptions
 
-### `LinkedList(String[] initialElements)`
+### `LinkedSL(String[] initialElements)`
 
-*Constructor* that creates a new `LinkedList` with its elements from
+*Constructor* that creates a new `LinkedSL` with its elements from
 `initialElements` in the same order. For example, the following constructor call:
 
 ```
@@ -192,7 +192,7 @@ will result in substantial deductions or a 0:
 - You cannot use `ArraySL` to implement `LinkedSL` or vice versa
 - You cannot add, remove, or change fields in `ArraySL` or `LinkedSL`
 - Your implementations of `ArraySL` and `LinkedSL` cannot use the built-in Java
-  collections classes (including `ArrayList` and `LinkedList`)
+  collections classes (including `ArrayList` and `LinkedSL`)
 - In your tests in `TestLists.java`, you can only use the `makeList` method to
   construct lists, and you can only call methods declared on the `StringList`
   interface to manipulate the lists you create. This makes sure we can
@@ -258,7 +258,7 @@ Checklist:
 - `transformAll` for `ArraySL` and for `LinkedSL`
 - `isEmpty` for `ArraySL` and for `LinkedSL`
 - `toArray` for `ArraySL` and for `LinkedSL`
-- `LinkedList` constructor with `String[]` parameter
+- `LinkedSL` constructor with `String[]` parameter
 - A correct and thorough set of tests
 - 2 implementations of `StringChooser`
 - 2 implementations of `StringTransformer`

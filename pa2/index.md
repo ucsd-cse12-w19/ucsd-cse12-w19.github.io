@@ -10,7 +10,7 @@ doodle: "../doodle.png"
 
 This assignment will exercise your understanding of array and linked lists.
 
-It is due on Wednesday, January 22 at 11pm. A submission link will be provided
+It is due on Wednesday, January 23 at 11pm. A submission link will be provided
 on Gradescope by Monday, January 19.
 
 ## Setup and Goal

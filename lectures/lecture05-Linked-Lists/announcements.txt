@@ -1,0 +1,13 @@
+Announcements:
+
+PA2 released later today, due next WED
+- Focus on array lists (Mon) and linked lists (today)
+- CLOSED to collaboration
+- All questions as private Piazza posts
+- No collaboration
+- We will have a FAQ as for PA1
+
+Materials on web site
+- Lecture notes/worksheets
+- Discussion slides
+- References to ZyBooks chapters

@@ -192,7 +192,7 @@ will result in substantial deductions or a 0:
 - You cannot use `ArraySL` to implement `LinkedSL` or vice versa
 - You cannot add, remove, or change fields in `ArraySL` or `LinkedSL`
 - Your implementations of `ArraySL` and `LinkedSL` cannot use the built-in Java
-  collections classes (including `ArrayList` and `LinkedSL`)
+  collections classes (including `ArrayList` and `LinkedList`)
 - In your tests in `TestLists.java`, you can only use the `makeList` method to
   construct lists, and you can only call methods declared on the `StringList`
   interface to manipulate the lists you create. This makes sure we can

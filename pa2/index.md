@@ -260,8 +260,8 @@ Checklist:
 - `toArray` for `ArraySL` and for `LinkedSL`
 - `LinkedSL` constructor with `String[]` parameter
 - A correct and thorough set of tests
-- 2 implementations of `StringChooser`
-- 2 implementations of `StringTransformer`
+- 2 implementations of `StringChooser` (in addition to `LongWordChooser`)
+- 2 implementations of `StringTransformer` (in addition to `UpperCaseTransformer`)
 - 2 README questions
 
 Rubric:

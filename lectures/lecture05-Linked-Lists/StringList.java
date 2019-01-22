@@ -12,9 +12,9 @@ public interface StringList {
   int size();
 
   /* Add an element at the specified index */
-//  void insert(int index, String s);
+  void insert(int index, String s);
 
   /* Remove the element at the specified index */
-//  void remove(int index);
+  void remove(int index);
 
 }

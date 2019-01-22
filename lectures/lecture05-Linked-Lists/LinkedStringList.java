@@ -49,6 +49,22 @@ public class LinkedStringList implements StringList {
     this.size += 1;
   }
 
+  public void remove(int index) {
+    Node current = this.front;
+    for(int i = 0; i < index; i += 1) {
+      current = current.next;
+    }
+    current.next = current.next.next;
+  }
+
+  public void insert(int index, String s) {
+    Node current = this.front;
+    for(int i = 0; i < index; i += 1) {
+      current = current.next;
+    }
+    current.next = new Node(s, current.next);
+  }
+
   public int size() {
     return this.size;
   }

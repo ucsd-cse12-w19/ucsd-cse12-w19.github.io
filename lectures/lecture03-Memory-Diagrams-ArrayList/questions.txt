@@ -1,0 +1,70 @@
+
+
+Announcements:
+
+PA1 due Tuesday at 10:59pm, open collaboration
+Lab hours posted
+Discussion today at 5pm York 2622
+
+First review quiz due Tuesday at 10:59pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What does Q1 print?
+
+A: red, blue
+B: blue, green
+C: red, green
+D: blue, blue
+E: Something else
+
+
+
+
+
+
+
+
+
+
+
+
+
+What does Q2 print?
+
+A: 1
+B: 0
+C: 9
+D: 10
+E: Something else
+
+
+
+
+
+
+
+
+
+

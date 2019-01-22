@@ -16,8 +16,9 @@ public class AList<E> implements List<E> {
   }
 
   public E get(int index) {
-    // TODO: Check for out-of-bounds
-    // throw IndexOutOfBoundsException
+    if(index < 0 || index >= this.size) {
+      throw new IndexOutOfBoundsException();
+    }
     return this.elements[index];
   }
 
@@ -25,11 +26,14 @@ public class AList<E> implements List<E> {
     return this.size;
   }
 
+  @SuppressWarnings("unchecked")
   private void expandCapacity() {
+    // NOTE(joe): I changed currentSize to currentCapacity below
+    // because it's a better name for the variable
     int currentCapacity = this.elements.length;
     if(this.size < currentCapacity) { return; }
 
-
+    E[] expanded = (E[])(new Object[currentCapacity * 2]);
 
 
     for(int i = 0; i < this.size; i += 1) {

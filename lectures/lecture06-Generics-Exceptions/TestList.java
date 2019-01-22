@@ -25,17 +25,23 @@ public class TestList {
   @Test
   public void testListOfLists() {
 
+
+    List<List<String>> bllist = new AList<>();
+
+
     bllist.add(new AList<String>());
     bllist.add(new AList<String>());
     bllist.get(0).add("a");
     bllist.get(0).add("b");
     bllist.get(1).add("c");
     bllist.get(1).add("d");
+    bllist.get(1).add("e");
 
     assertEquals("a", bllist.get(0).get(0));
     assertEquals("b", bllist.get(0).get(1));
     assertEquals("c", bllist.get(1).get(0));
     assertEquals("d", bllist.get(1).get(1));
+    assertEquals("e", bllist.get(1).get(2));
 
   }
 
@@ -44,6 +50,20 @@ public class TestList {
     List<String> slist = new AList<String>();
     slist.add("banana");
     slist.get(-1);
+  }
+
+  @Test(expected = IndexOutOfBoundsException.class)
+  public void testTooLargeIndexWithinCapacity() {
+    List<String> slist = new AList<String>();
+    slist.add("banana");
+    slist.get(1);
+  }
+
+  @Test(expected = IndexOutOfBoundsException.class)
+  public void testTooLargeIndexBeyondCapcity() {
+    List<String> slist = new AList<String>();
+    slist.add("banana");
+    slist.get(100);
   }
 
 }

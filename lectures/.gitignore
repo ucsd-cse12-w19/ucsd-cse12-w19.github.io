@@ -1,3 +1,4 @@
-_site/
+*.class
+*.sw*
 *.sw*
 .DS_Store

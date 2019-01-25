@@ -1,0 +1,8 @@
+
+- PA due tonight
+- You can resubmit after the deadline for code, but submit README!
+  - Review null
+  - Review what tests mean (wheat/chaff)
+- Next PA out tomorrow
+- Exam 1 next Friday in class (details will be posted on Piazza)
+

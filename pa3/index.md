@@ -105,6 +105,9 @@ in the testing section below.
 
 The search algorithm we will use was presented in class, and is rewritten here:
 
+**NOTE: This changed from the initial version, and the `mark the neighbor as
+visited` step was moved into the inner loop**
+
 ```
 initialize wl to be a new empty worklist (stack _or_ queue)
 add the start square to wl

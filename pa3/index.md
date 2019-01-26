@@ -108,13 +108,14 @@ The search algorithm we will use was presented in class, and is rewritten here:
 ```
 initialize wl to be a new empty worklist (stack _or_ queue)
 add the start square to wl
+mark the start as visited
 while wl is not empty:
   let current = remove the first element from wl (pop or dequeue)
-  mark current as visited
   if current is the finish square
     return current
   else
     for each neighbor of current that isn't a wall and isn't visited
+      mark the neighbor as visited
       set the previous of the neighbor to current
       add the neighbor to the worklist (push or enqueue)
 

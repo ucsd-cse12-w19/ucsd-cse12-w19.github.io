@@ -72,21 +72,21 @@ from PA2.
 Answer the following questions, and justify them with one or two sentences
 each:
 
-- Give a big-Θ bound for the _best case_ running time of `prepend` in
+- Give a tight big-O bound for the _best case_ running time of `prepend` in
   ArrayStringList
-- Give a big-Θ bound for the _best case_ running time of `prepend` in
+- Give a tight big-O bound for the _best case_ running time of `prepend` in
   LinkedStringList
-- Give a big-Θ bound for the _worst case_ running time of `prepend` in
+- Give a tight big-O bound for the _worst case_ running time of `prepend` in
   ArrayStringList
-- Give a big-Θ bound for the _worst case_ running time of `prepend` in
+- Give a tight big-O bound for the _worst case_ running time of `prepend` in
   LinkedStringList
-- Give a big-Θ bound for the _best case_ running time of `add` in
+- Give a tight big-O bound for the _best case_ running time of `add` in
   ArrayStringList
-- Give a big-Θ bound for the _best case_ running time of `add` in
+- Give a tight big-O bound for the _best case_ running time of `add` in
   LinkedStringList
-- Give a big-Θ bound for the _worst case_ running time of `add` in
+- Give a tight big-O bound for the _worst case_ running time of `add` in
   ArrayStringList
-- Give a big-Θ bound for the _worst case_ running time of `add` in
+- Give a tight big-O bound for the _worst case_ running time of `add` in
   LinkedStringList
 
 In all cases, give answers in terms of the _current size of the list_, and
@@ -100,13 +100,13 @@ Notable points to consider:
 - When considering the running time of a method, make sure to take into
   account any helpers methods it uses!
 
-Example for `getAt` in the `CSE12DLList` class:
+Example for `get` in the `LinkedStringList` class:
 
-    The getAt method is O(1) in the best case, when the index is 0. In this
-    case it will do constant work checking the index and immediately return the
+    The get method is O(1) in the best case, when the index is 0. In this case
+    it will do constant work checking the index and immediately return the
     first element, never entering the while loop.
 
-    The getAt method is O(n) in the worst case, because the index could be at
+    The get method is O(n) in the worst case, because the index could be at
     the end of the list (for example, index n - 1). In this case, the while
     loop will run n times, spending constant time on each iteration, resulting
     in overall O(n) number of steps taken.

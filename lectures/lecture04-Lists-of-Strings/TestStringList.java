@@ -4,6 +4,17 @@ import org.junit.Test;
 public class TestStringList {
 
   @Test
+  public void testPrepend() {
+    StringList slist = new ArrayStringList();
+    slist.prepend("banana");
+    slist.prepend("apple");
+
+    assertEquals("apple", slist.get(0));
+    assertEquals("banana", slist.get(1));
+  }
+
+
+  @Test
   public void testAdd() {
     StringList slist = new ArrayStringList();
     slist.add("banana");

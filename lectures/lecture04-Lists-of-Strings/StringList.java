@@ -1,4 +1,6 @@
 public interface StringList {
+  /* Add an element at the end of the list */
+  void prepend(String s);
 
   /* Add an element at the end of the list */
   void add(String s);

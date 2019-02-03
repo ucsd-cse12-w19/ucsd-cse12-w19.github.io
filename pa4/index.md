@@ -211,7 +211,7 @@ where `Measurement` is defined in `Measurement.java`.
 
   3. For each of these runs, it _measures_ the time it takes to run. You can do
   this by using the method `System.nanoTime()` (see an example in [discussion
-  code (link coming soon!)](FILL))
+  code](https://github.com/ucsd-cse12-w19/ucsd-cse12-w19.github.io/blob/master/discussion/week4-discussion-friday-runtime-measurement/MeasurementDemo.java))
   
   4. For each of the measured runs, it creates a `Measurement` whose `valueOfN`
   field is the value that was used for the given run, whose `name` field is the

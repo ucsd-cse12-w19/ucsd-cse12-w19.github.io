@@ -328,7 +328,7 @@ waiting a long time.
 
 There are four artifacts to submit for this PA:
 
-By Wednesday, 11:59pm
+By Thursday, 10:59pm
 - The `pa4-code` assignment in Gradescope, where you will submit your
   final code for performing measurements, along with a `README` describing how
   you measured things. This `README` should just contain a few sentences

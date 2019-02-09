@@ -358,7 +358,8 @@ recommendation, not something we will enforce.
 ## Submission
 
 You will only hand in a zip archive of the pa5-starter directory containing all
-the files above.
+the files above. You can use the provided `prepare-submission.sh` script for
+this.
 
 Grading breakdown (40 total points):
 

@@ -323,6 +323,8 @@ Some good questions to ask a tutor or TA if you don't quite understand:
 
 ## File Summary
 
+Starter code is here: [https://github.com/ucsd-cse12-w19/pa5-starter](https://github.com/ucsd-cse12-w19/pa5-starter)
+
 - `PartitionOracle.java`:
   - `findCounterExample` (you implement this)
   - `generateInput` (you implement this)

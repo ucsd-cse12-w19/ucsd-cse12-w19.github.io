@@ -165,7 +165,7 @@ Here's one way you might approach this problem:
   characters. Test that the method returns the right number of elements without
   any errors.
 - Implement a (really) incorrect version of `Partitioner`, that makes no
-  changes at all to the underlying array in its `sortByPrice` method. Implement
+  changes at all to the underlying array in its `partition` method. Implement
   a _good_ version of `Partitioner` as well (you can take the one from
   class/discussion), adapted to work as a `Partitioner`.
 - Try putting together a first version of `findCounterExample`. It could create

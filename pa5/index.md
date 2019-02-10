@@ -136,7 +136,7 @@ you see fit. The two methods you must implement are:
  * - "Item before pivot too large"
  * - "Item after pivot too small"
  */
-String isPartitionedResultFor(String[] before, int low, int high, int pivot, String[] after)
+String isValidPartitionResult(String[] before, int low, int high, int pivot, String[] after)
 ```
 
 ```
@@ -154,10 +154,10 @@ produce an array of length `n`, however.
 
 Here's one way you might approach this problem:
 
-- First, implement and test `isPartitionedResultFor`. Think of several
+- First, implement and test `isValidPartitionResult`. Think of several
   interesting individual cases (specific arrays and low/high bounds) you can
   imagine in a first pass, and test it on those cases.  Note that to test
-  `isPartitionedResultFor`, you will be creating pairs of arrays of strings for
+  `isValidPartitionResult`, you will be creating pairs of arrays of strings for
   input and expected output (at first, by hand), and checking _both_ for
   success and for failure: you should have some tests where the `after`
   parameter and `pivot` describe an incorrect partitioning, and some correct.
@@ -170,7 +170,7 @@ Here's one way you might approach this problem:
   class/discussion), adapted to work as a `Partitioner`.
 - Try putting together a first version of `findCounterExample`. It could create
   a single list using `generateInput`, partition it with the given partitioner,
-  check if it was sorted correctly using `isPartitionedResultFor`, and return
+  check if it was sorted correctly using `isValidPartitionResult`, and return
   `null` if it partitioned correctly or a `CounterExampel` if it didn't. Note:
   you will need to _save_ the original array, since sorters can and will make
   changes to them! You can use `Arrays.copyOf` to make a copy of an array:
@@ -203,7 +203,7 @@ more refined tests. Here are some ideas:
 - Feel free to add some interesting hand-written cases to `findCounterExample`
   where you use interesting input lists that you construct by hand. You can
   combine whether they sort correctly or not (e.g. sort them and then check
-  `isPartitionedResultFor`).
+  `isValidPartitionResult`).
 - Use the partition implementations that you find on the Web (below) and check
   if they are good or bad.
 - The `java.util.Random` class has useful tools for generating random numbers
@@ -329,7 +329,7 @@ Starter code is here: [https://github.com/ucsd-cse12-w19/pa5-starter](https://gi
 - `PartitionOracle.java`:
   - `findCounterExample` (you implement this)
   - `generateInput` (you implement this)
-  - `isPartitionedResultFor` (you implement this)
+  - `isValidPartitionResult` (you implement this)
 - `TestPartitionOracle.java`: You will write your tests of the methods above here
 - `CounterExample.java` (do not edit this)
 - `Partitioner.java` (do not edit this): Defines the signature of the
@@ -364,7 +364,7 @@ this.
 
 Grading breakdown (40 total points):
 
-- 10 points: `isPartitionedResultFor`, graded automatically
+- 10 points: `isValidPartitionResult`, graded automatically
 - 5 points: `generateInput`, graded automatically
 - 11 points: `findCounterExample`, graded by how it performs on good and bad
   partitions that we provide, graded automatically

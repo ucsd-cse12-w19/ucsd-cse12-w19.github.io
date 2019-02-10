@@ -85,7 +85,8 @@ partitioning ought to. Properties sufficient to show a valid partitioning are:
 
 - All the elements in the original array are present in the array _after_ we
   call partition
-- No values at indices other than `low` to `high - 1` changed their values
+- No values at indices other than those from `low` (inclusive) to `high`
+  (exclusive) changed their values
 - The elements from `low` to `high` are correctly partitioned:
   - `partition` returns some _pivot index_ between `low` (inclusive) and `high`
     (exclusive)

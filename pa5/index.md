@@ -202,7 +202,7 @@ more refined tests. Here are some ideas:
   `CounterExample` if it didn't.
 - Feel free to add some interesting hand-written cases to `findCounterExample`
   where you use interesting input lists that you construct by hand. You can
-  combine whether they sort correctly or not (e.g. sort them and then check
+  combine whether they sort correctly or not (e.g. partition them and then check
   `isValidPartitionResult`).
 - Use the partition implementations that you find on the Web (below) and check
   if they are good or bad.

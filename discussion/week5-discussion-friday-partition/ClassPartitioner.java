@@ -14,25 +14,25 @@ public class ClassPartitioner implements Partitioner{
 
 	public static void swap(String[] array, int i1, int i2) {
 		String temp = array[i1];
-	    array[i1] = array[i2];
-	    array[i2] = temp;
+	        array[i1] = array[i2];
+	        array[i2] = temp;
 	}
 	public int partition(String[] array, int low, int high) {
 		if(low == high){
-        	return low;
-        }
-        int pivotIndex = high - 1;
+        	    return low;
+                }
+                int pivotIndex = high - 1;
 		String pivot = array[pivotIndex];
 		int smallerBeforeIndex = low;
 		int largerAfterIndex = high - 2;
 		while(largerAfterIndex >= smallerBeforeIndex) {
 			if(Integer.parseInt(array[smallerBeforeIndex]) > Integer.parseInt(pivot)) {
 				swap(array, smallerBeforeIndex, largerAfterIndex);
-		        largerAfterIndex -= 1;
-		    }
-		    else {
-		        smallerBeforeIndex += 1;
-		    }
+		                largerAfterIndex -= 1;
+		        }
+		        else {
+		                smallerBeforeIndex += 1;
+		        }
 		}
 		    
 		if(Integer.parseInt(array[smallerBeforeIndex]) < Integer.parseInt(pivot)){

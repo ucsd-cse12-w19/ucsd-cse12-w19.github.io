@@ -19,6 +19,11 @@ public int hash3(String s) {
   return h;
 }
 
+/**
+  This method reads in all the words in the dictionary and prints/counts all
+  the collisions. You can modify the path to match the path on your system (or
+  any text file with one word per line)
+*/
 void findCollisionInDict() throws Throwable {
   HashMap<Integer, String> ht = new HashMap<>();
   int collisions = 0;
@@ -41,6 +46,7 @@ class HashTable<K,V> {
   }
   List<Entry>[] buckets; // An array of Lists of Entries
   int size;
+  @SuppressWarnings("unchecked")
   public HashTable() {
     this.size = 0;
     this.buckets = (List<Entry>[])(new List[4]);
@@ -114,6 +120,7 @@ class HashTable<K,V> {
       this.set(k, v)
 
   */
+  @SuppressWarnings("unchecked")
   public void expandCapacity() {
     List<Entry>[] newEntries = (List<Entry>[])(new List[this.buckets.length * 2]);
     List<Entry>[] oldEntries = this.buckets;

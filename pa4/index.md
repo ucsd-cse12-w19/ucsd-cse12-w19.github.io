@@ -4,8 +4,6 @@ title: "PA4: Runtime, Measured and Modeled (open)"
 doodle: "../doodle.png"
 ---
 
-<h1>{{ page.title }}</h1>
-
 This assignment will give you experience working with big-Ο/θ/Ω
 representations, practice matching them to implementations, and perform
 measurements of the runtime of different methods.

@@ -4,8 +4,6 @@ title: "PA3: Worklists are A MAZE ING (Open)"
 doodle: "../doodle.png"
 ---
 
-<h1>{{ page.title }}</h1>
-
 **This assignment is <a href="../#programming">open to collaboration</a>.**
 
 This assignment will teach you how to use stacks and queues as worklists, how

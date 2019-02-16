@@ -4,8 +4,6 @@ title: "PA5: Testing Partition (closed)"
 doodle: "/doodle.png"
 ---
 
-<h1>{{ page.title }}</h1>
-
 This assignment will teach you how to write tests in a thorough, automated way,
 will explore some properties of quicksort, and will give you structured
 practice in re-using code you find on the Web.

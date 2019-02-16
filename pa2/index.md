@@ -4,8 +4,6 @@ title: "PA2 (Closed): Manipulating Lists"
 doodle: "../doodle.png"
 ---
 
-<h1>{{ page.title }}</h1>
-
 **This assignment is <a href="../#programming">closed to collaboration</a>.**
 
 This assignment will exercise your understanding of array and linked lists.

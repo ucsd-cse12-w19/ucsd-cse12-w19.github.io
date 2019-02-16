@@ -4,8 +4,6 @@ title: "PA1 (Open): Testing Shopping Baskets"
 doodle: "../doodle.png"
 ---
 
-<h1>{{ page.title }}</h1>
-
 **This assignment is <a href="../#programming">open to collaboration</a>.**
 
 This assignment will teach you to use JUnit to test implementations of an

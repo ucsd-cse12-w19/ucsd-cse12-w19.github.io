@@ -1,0 +1,1 @@
+in an agoric LISP  money is the root of all eval

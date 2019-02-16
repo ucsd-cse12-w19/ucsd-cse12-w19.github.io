@@ -8,6 +8,10 @@ In this assignment you’ll implement a variant on the `Map` interface using the
 adapter pattern.  You’ll use the implementation to build an n-gram viewer,
 which shows data about common words and phrases in text over time.
 
+You can get the starter code here:
+
+[https://github.com/ucsd-cse12-w19/pa6-starter](https://github.com/ucsd-cse12-w19/pa6-starter)
+
 ## Part I: An Implementation of `DefaultMap`
 
 You’ll provide a fast implementation of an interface called `DefaultMap` in

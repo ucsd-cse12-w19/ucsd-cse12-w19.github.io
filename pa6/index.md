@@ -341,6 +341,8 @@ from many different sources.
 
 You will write a README to answer the following questions:
 
+- For each method in `DefaultMapImpl`, argue why its performance meets the
+  specified required bound.
 - Justify your filtering process. Write 3-5 sentences and give 2-3 examples of
   important filtering rules you came up with to go from the space-separated
   strings in a file to the n-grams your viewer shows.
@@ -377,12 +379,12 @@ This PA has the same style guidelines as PA5.
 
 50 total points
 
-- 14 points: implementation of `DefaultMap` [automatically graded]
+- 11 points: implementation of `DefaultMap` [automatically graded]
 - 22 points: n-gram viewer
   - 10 points for `generateDatabase` [automatically graded]
   - 8 points for `makeGraph` [automatically graded]
   - 4 points for `main` [manually graded]
-- 9 points: README [manually graded]
+- 12 points: README [manually graded]
 - 5 points: Style [manually graded]
 
 There is no bad implementation testing on this PA. However, we highly recommend

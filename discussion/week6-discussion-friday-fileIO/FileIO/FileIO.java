@@ -139,7 +139,7 @@ class FileIO {
 		System.out.println("\nJoe's quote by Shriram Krishnamurthi (every other word):");
 		System.out.println(everyOtherWordQuote);
 		
-		// get every other word in our merged file to reveal a hideen message!
+		// get every other word in our merged file to reveal a hidden message!
 		ArrayList<String> unmergedQuote = getEveryOtherWordFromFile(new File("merged.txt"));
 		System.out.println("\nUnmerged:");
 		System.out.println(unmergedQuote);

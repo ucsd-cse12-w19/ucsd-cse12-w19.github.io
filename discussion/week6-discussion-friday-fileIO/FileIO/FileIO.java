@@ -8,9 +8,11 @@ import java.util.Scanner;
 import java.util.Collections;
 
 class FileIO {
+	// get the list of files and directories in a directory
 	public static File[] getEntries(File f){
 		return f.listFiles();
 	}
+	// print the list of files and directories in a directory
 	public static void printEntries(File f){
 		File[] entries = getEntries(f);
 		System.out.println("The entries in " + f.getName() + " are:");
@@ -19,6 +21,7 @@ class FileIO {
 		}
 		System.out.println("");
 	}
+	// get the list of files in a directory
 	public static ArrayList<File> getSubfiles(File f){
 		File[] entries = f.listFiles();
 		ArrayList<File> subfiles = new ArrayList<>();
@@ -29,6 +32,7 @@ class FileIO {
 		}
 		return subfiles;
 	}
+	// print the list of files in a directory
 	public static void printSubfiles(File f){
 		ArrayList<File> subfiles = getSubfiles(f);
 		System.out.println("The files in " + f.getName() + " are:");
@@ -37,6 +41,7 @@ class FileIO {
 		}
 		System.out.println("");
 	}
+	// get the list of subdirectories in a directory
 	public static ArrayList<File> getSubdirs(File f){
 		File[] entries = f.listFiles();
 		ArrayList<File> subdirs = new ArrayList<>();
@@ -47,6 +52,7 @@ class FileIO {
 		}
 		return subdirs;
 	}
+	// print the list of subdirectories in a directory
 	public static void printSubdirs(File f){
 		ArrayList<File> subdirs = getSubdirs(f);
 		System.out.println("The subdirectories " + f.getName() + " are:");
@@ -55,6 +61,7 @@ class FileIO {
 		}
 		System.out.println("");
 	}
+	// compute average of integer data in list of files in a directory
 	// expects a particular text file structure and integer contents
 	public static double getAverageFromFiles(File f) throws IOException{
 		ArrayList<File> subfiles = getSubfiles(f);
@@ -71,6 +78,7 @@ class FileIO {
 		}
 		return sum/players;
 	}
+	// get all Strings in a file
 	public static ArrayList<String> getWordsFromFile(File f) throws IOException{
 		ArrayList<String> words = new ArrayList<>();
 		Scanner scanner = new Scanner(f);
@@ -80,7 +88,7 @@ class FileIO {
 		scanner.close();
 		return words;
 	}
-	
+	// get every other String in a file
 	public static ArrayList<String> getEveryOtherWordFromFile(File f) throws IOException{
 		ArrayList<String> words = new ArrayList<>();
 		Scanner scanner = new Scanner(f);
@@ -121,14 +129,17 @@ class FileIO {
 		System.out.println("\nJoe's quote by Shriram Krishnamurthi:");
 		System.out.println(quote);
 
+		// sort words alphabetically
 		System.out.println("\nJoe's quote by Shriram Krishnamurthi (sorted):");
 		Collections.sort(quote);
 		System.out.println(quote);
 		
+		// get every other word in one of the Joe quote files
 		ArrayList<String> everyOtherWordQuote = getEveryOtherWordFromFile(new File("JoeWisdom/ShriramKrishnamurthi.txt"));
 		System.out.println("\nJoe's quote by Shriram Krishnamurthi (every other word):");
 		System.out.println(everyOtherWordQuote);
 		
+		// get every other word in our merged file to reveal a hideen message!
 		ArrayList<String> unmergedQuote = getEveryOtherWordFromFile(new File("merged.txt"));
 		System.out.println("\nUnmerged:");
 		System.out.println(unmergedQuote);

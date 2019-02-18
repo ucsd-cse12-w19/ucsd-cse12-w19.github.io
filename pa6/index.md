@@ -65,9 +65,9 @@ collections library to implement them (including helpers like
 interface, or class in the standard Java utils, ask! This is an opportunity to
 learn about the built-in libraries. You may find these useful:
 
-- [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashMap.html](HashMap)
-- [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Set.html](Set)
-- [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collection.html](Collection)
+- [`HashMap`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashMap.html)
+- [`Set`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Set.html)
+- [`Collection`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collection.html)
 
 The pages linked from those may also have useful information.  Your
 implementation of `DefaultMap` will be graded automatically by tests that we

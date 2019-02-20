@@ -50,6 +50,7 @@ of entries in the map.
 
 - `set`, required _O(log(n))_
 - `get`, required _O(log(n))_
+- `containsKey`, required _O(log(n))_
 - `keys`, required _O(n)_
 - `values`, required _O(n)_
 - `size`, required _O(1)_

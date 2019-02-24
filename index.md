@@ -429,6 +429,50 @@ Your grade will be computed from:
   <li>10% engagement</li>
 </ul>
 
+There are **3 closed** and **5 open** PAs. We will use an _ordered
+weighting_ to assign the 50 PA points that weights credit towards your best
+work.
+
+For the 3 closed PAs, we will order them from highest to lowest in terms of
+percentage scored on the PA itself, and then assign the proportions of the
+following points to each:
+
+- 8% highest scoring
+- 7% middle
+- 5% lowest
+
+For the 5 open PAs, we will order them from highest to lowest in terms of
+percentage scored on the PA itself, and then assign the proportions of the
+following points to each:
+
+- 8% highest scoring
+- 7% 2nd highest scoring
+- 6% 
+- 5%
+- 4% lowest scoring
+
+**Example**: You score:
+
+- PA1:  90%
+- PA2:  50%
+- PA3:  70%
+- PA4:  80%
+- PA5: 100%
+- PA6:  92%
+- PA7:  90%
+- PA8: 100%
+
+The closed PAs would be ordered 100% (PA5), 90% (PA7), 50% (PA2).
+
+The points would be 1 * 8 + 0.9 * 7 + 0.5 * 5 = 16.8 points
+
+The open PAs would be ordered 100% (PA8), 92% (PA6), 90% (PA1), 80% (PA4),
+70% (PA3)
+
+The points would be 1 * 8 + 0.92 * 7 + 0.9 * 6 + 0.8 * 5 + 0.7 * 4 = 26.64 points.
+
+The total points (of 50 points) for PAs would be 43.44/50.
+
 After your weighted average is calculated, letter grades will be assigned
 based on the following grading scale:
 

@@ -430,8 +430,7 @@ Your grade will be computed from:
 </ul>
 
 There are **3 closed** and **5 open** PAs. We will use an _ordered
-weighting_ to assign the 50 PA points that weights credit towards your best
-work.
+weighting_ to assign the 50 PA points.
 
 For the 3 closed PAs, we will order them from highest to lowest in terms of
 percentage scored on the PA itself, and then assign the proportions of the

@@ -39,60 +39,53 @@ void findCollisionInDict() throws Throwable {
   System.out.println("Total collisions: " + collisions);
 }
 
+class HasherA implements Hasher<String> {
+  int i;
+  public HasherA() { this.i = 0; }
+  public int hash(String s) { i += 1; return s.length() + i; }
+}
+
+class HasherB implements Hasher<String> {
+  public int hash(String s) { return Character.codePointAt(s, 0); }
+}
+
+
+interface Hasher<K> { int hash(K key); }
 class HashTable<K,V> {
   class Entry {
     K k; V v;
     public Entry(K k, V v) { this.k = k; this.v = v; }
+    public String toString() { return "{" + k + ": " + v + "}"; }
   }
   List<Entry>[] buckets; // An array of Lists of Entries
   int size;
-  @SuppressWarnings("unchecked")
-  public HashTable() {
+  Hasher<K> hasher;
+
+  public HashTable(Hasher<K> h, int startCapacity) {
     this.size = 0;
-    this.buckets = (List<Entry>[])(new List[4]);
+    this.hasher = h;
+    this.buckets = (List<Entry>[])(new List[startCapacity]);
   }
-  public double loadFactor() {
-    return (double)(this.size) / this.buckets.length;
-  }
-  /*
-    Value get(key):
-      hashed = hash(key)
-      index = hashed % this.buckets.length
-      if this.buckets[index] contains an Entry with key:
-        return the value of that entry
-      else:
-        return null/report an error
-  */
+
+  public double loadFactor() { return (double)(this.size) / this.buckets.length; }
+
   public V get(K k) {
-    int hashCode = k.hashCode();
+    int hashCode = this.hasher.hash(k);
     int index = hashCode % this.buckets.length;
     if(this.buckets[index] == null) {
-      throw new NoSuchElementException("No such element " + k);
+      return null;
     }
     else {
       for(Entry e: this.buckets[index]) {
-        if(e.k.equals(k)) {
-          return e.v;
-        }
+        if(e.k.equals(k)) { return e.v; }
       }
-      throw new NoSuchElementException("No such element " + k);
+      return null;
     }
   }
-  /*
 
-  set(key, value):
-    hashed = hash(key)
-    index = hashed % array length
-    if this.buckets[index] contains a pair with key:
-      update that pair to contain value
-    else:
-      increment this.size
-      add {key: value} to buckets[index]
-
-  */
   public void set(K k, V v) {
-    if(loadFactor() > 0.5) { expandCapacity(); }
-    int hashCode = k.hashCode();
+    if(loadFactor() > 0.9) { expandCapacity(); }
+    int hashCode = this.hasher.hash(k);
     int index = hashCode % this.buckets.length;
     if(this.buckets[index] == null) {
       this.buckets[index] = new ArrayList<Entry>();
@@ -100,26 +93,13 @@ class HashTable<K,V> {
     }
     else {
       for(Entry e: this.buckets[index]) {
-        if(e.k.equals(k)) {
-          e.v = v;
-          return;
-        }
+        if(e.k.equals(k)) { e.v = v; return; }
       }
       this.buckets[index].add(new Entry(k, v));
     }
     this.size += 1;
   }
-  /*
 
-  expandCapacity():
-    newEntries = new List[this.buckets.length * 2];
-    oldEntries = this.buckets
-    this.buckets = newEntries
-    this.size = 0
-    for each entry {k:v}:
-      this.set(k, v)
-
-  */
   @SuppressWarnings("unchecked")
   public void expandCapacity() {
     List<Entry>[] newEntries = (List<Entry>[])(new List[this.buckets.length * 2]);
@@ -137,7 +117,7 @@ class HashTable<K,V> {
 
 
 HashTable<String, Integer> build() {
-  HashTable<String, Integer> ht = new HashTable<>();
+  HashTable<String, Integer> ht = new HashTable<>(new HasherA(), 5);
   ht.set("a", 6);
   ht.set("b", 6);
   ht.set("c", 6);

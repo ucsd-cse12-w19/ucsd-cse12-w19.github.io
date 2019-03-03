@@ -4,4 +4,4 @@ Our interface has fewer methods than used in PA7 and we have omitted implementat
 
 In the code, we provide method implementations for both recursively removing and iteratively removing an element from a tree. Notice how much more code is required for the iterative one!
 
-Lastly, we added in a `BFS` method that performs BFS on a binary tree. Note: a **binary tree** is not necessarily a BST (it is not necessarily ordered). We use binary search in our `removeRecursively` and `removeIteratively` methods because binary search makes more sense for a BST, but we are providing this method as something we hope will be useful to you with heaps.
+Lastly, we added in a `BFS` method that performs BFS on a binary tree. Note: a **binary tree** is not necessarily a BST (it is not necessarily ordered). We use binary search in our `removeRecursively` method because binary search makes more sense for a BST, but we are providing this method as something we hope will be useful to you with heaps.

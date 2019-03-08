@@ -81,10 +81,11 @@ You will submit this in two places:
     and the same data and charts requested above requested above for the
     measurements after making the change.
     
-2. A zip of your code in the `pa8-measure-code` code
-assignment. You should make sure the code you used to measure, the original
-code for your PA, 
-
+2. A zip of your code in the `pa8-measure-code` code assignment. You should
+make sure the code you used to measure, the original code for your PA, and the
+updated version are included. We _may_ look at this to confirm/support the
+descriptions you give above. However, the descriptions you give should be
+complete enough for us to understand your original and updated implementation.
 
 ## Part II: Heaps in C
 

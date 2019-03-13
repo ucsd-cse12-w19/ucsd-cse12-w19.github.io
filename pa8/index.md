@@ -360,7 +360,7 @@ as `NULL`).
 
 You will submit this part to the `pa8` assignment on Gradescope.
 
-### Grading
+## Grading
 
 - Part 1:
   - 6 points – Baseline measurement [manually graded]
